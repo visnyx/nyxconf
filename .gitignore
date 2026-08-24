@@ -6,7 +6,5 @@ result-*
 .idea/
 .direnv/
 
-# Machine specific btw
-hardware/hardware-configuration.nix
 
 flake.lock

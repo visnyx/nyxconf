@@ -36,15 +36,15 @@
     ./modules/apps/system.nix
 
     # Cuda
-    #./modules/cuda/apps.nix
-    #./modules/cuda/services.nix
+    ./modules/cuda/apps.nix
+    ./modules/cuda/services.nix
 
     # System
     ./modules/system/boot.nix
 
     # kernels
-    #./modules/system/cachy.nix
-    ./modules/system/zen.nix
+    ./modules/system/cachy.nix
+    #./modules/system/zen.nix
   ];
 
   # Pin nixpkgs for imperative commands.
