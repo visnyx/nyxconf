@@ -93,7 +93,7 @@
           "options" = {
             "nixos" = {
               "expr" =
-                "(builtins.getFlake \"/home/nyxee/my-nixosconfig\").nixosConfigurations.nyxstation.options";
+                "(builtins.getFlake \"/home/nyxee/nyxconf\").nixosConfigurations.nyxstation.options";
             };
           };
         };

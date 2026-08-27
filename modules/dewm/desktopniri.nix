@@ -31,6 +31,7 @@
     # explorers
     nautilus
     kdePackages.dolphin
+    kdePackages.gwenview
 
     # previews
     ffmpegthumbnailer

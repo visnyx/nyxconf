@@ -12,7 +12,7 @@
     ./hardware/nvidia.nix
 
     # De or Wms
-    # ./modules/dewm/desktopplasma.nix
+    #./modules/dewm/desktopplasma.nix
     ./modules/dewm/desktopniri.nix
 
     # Modules

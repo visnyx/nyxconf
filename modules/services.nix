@@ -16,13 +16,6 @@
   # OpenRGB hardware control.
   services.hardware.openrgb.enable = true;
 
-  # Schedx
-  services.scx = {
-    enable = true;
-    scheduler = "scx_lavd";
-    extraArgs = [ "--autopilot" ];
-  };
-
   # Tailscale
   services.tailscale = {
     enable = true;

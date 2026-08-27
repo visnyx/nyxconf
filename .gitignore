@@ -5,6 +5,4 @@ result-*
 .vscode/
 .idea/
 .direnv/
-
-
-flake.lock
+#flake.lock

@@ -30,7 +30,7 @@
 
     # Dynamic Boost.
     # js disabled lol
-    # dynamicBoost.enable = true;
+    dynamicBoost.enable = true;
 
     # Offload.
     prime = {

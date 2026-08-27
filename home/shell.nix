@@ -44,7 +44,7 @@
       rebuild = "nh os switch";
       update = "nh os switch --update";
       garbage = "nh clean all";
-      flakeup = "nix flake update --flake /home/nyxee/my-nixosconfig";
+      flakeup = "nix flake update --flake /home/nyxee/nyxconf";
 
       g = "git";
       gs = "git status";
@@ -65,7 +65,7 @@
       # Automated system update.
       sysup() {
         # Navigate to configuration.
-        cd /home/nyxee/my-nixosconfig || return 1
+        cd /home/nyxee/nyxconf || return 1
         git add -A
 
         # Prompt for commit.
@@ -101,7 +101,7 @@
 
       # Completion cache.
       zstyle ':completion:*' use-cache on
-      zstyle ':completion:*' cache-path "$HinputsOME/.cache/zsh/compcache"
+      zstyle ':completion:*' cache-path "$HOME/.cache/zsh/compcache"
 
       # Kill menu.
       zstyle ':completion:*:*:kill:*' menu yes select
