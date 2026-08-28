@@ -33,10 +33,6 @@
     ./modules/apps/utilities.nix
     ./modules/apps/system.nix
 
-    # Cuda
-    ./modules/cuda/apps.nix
-    ./modules/cuda/services.nix
-
     # System
     ./modules/system/boot.nix
 
@@ -72,8 +68,9 @@
     ];
   };
 
-  # Unfree + CUDA
+  # Unfree + cuda support globallyy
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.cudaSupport = true;
 
   # Nix helper
   programs.nh = {

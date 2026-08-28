@@ -13,6 +13,7 @@
     enable32Bit = true;
     extraPackages = with pkgs; [
       intel-media-driver
+      nvidia-vaapi-driver
     ];
   };
 
@@ -28,8 +29,7 @@
     powerManagement.enable = true;
     powerManagement.finegrained = true;
 
-    # Dynamic Boost.
-    # js disabled lol
+    # Dynamic Boost
     dynamicBoost.enable = true;
 
     # Offload.

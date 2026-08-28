@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # moved to modules/cuda/apps.nix
+    upscayl
+    blender
   ];
 }
