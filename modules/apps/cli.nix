@@ -19,5 +19,6 @@
     iproute2
     dnsutils
     micro
+    lazygit
   ];
 }

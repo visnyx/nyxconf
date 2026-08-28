@@ -4,13 +4,13 @@
   # Window manager.
   programs.niri.enable = true;
 
-  # Noctalia shell (from nixpkgs).
+  # Noctalia shell
   programs.noctalia = {
     enable = true;
     recommendedServices.enable = true;
   };
 
-  # Display manager (from nixpkgs).
+  # Display manager
   services.displayManager.noctalia-greeter = {
     enable = true;
     settings = { };
@@ -31,7 +31,6 @@
     # explorers
     nautilus
     kdePackages.dolphin
-    kdePackages.gwenview
 
     # previews
     ffmpegthumbnailer
@@ -83,7 +82,7 @@
   # Secret viewer.
   programs.seahorse.enable = true;
 
-  # Ignore power/suspend buttons (prevents accidental shutdowns).
+  # Ignore buttons
   services.logind.settings.Login = {
     HandlePowerKey = "ignore";
     HandleSuspendKey = "ignore";
