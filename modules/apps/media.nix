@@ -7,5 +7,6 @@
     mpv
     ffmpeg
     losslesscut
+    obs-studio
   ];
 }

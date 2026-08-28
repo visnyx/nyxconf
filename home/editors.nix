@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   # VS Code editor.
   programs.vscode = {
@@ -92,8 +92,7 @@
           };
           "options" = {
             "nixos" = {
-              "expr" =
-                "(builtins.getFlake \"/home/nyxee/nyxconf\").nixosConfigurations.nyxstation.options";
+              "expr" = "(builtins.getFlake \"/home/nyxee/nyxconf\").nixosConfigurations.nyxstation.options";
             };
           };
         };
