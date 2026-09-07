@@ -32,14 +32,14 @@
     ./modules/apps/development.nix
     ./modules/apps/utilities.nix
     ./modules/apps/system.nix
-    #./modules/apps/omniflake.nix
+    ./modules/apps/omniflake.nix
 
     # System
     ./modules/system/boot.nix
 
     # kernels
     ./modules/system/cachy.nix
-    #./modules/system/zen.nix
+    ./modules/system/zen.nix
   ];
 
   # Pin nixpkgs for imperative commands.
