@@ -10,8 +10,8 @@
     ./hardware/nvidia.nix
 
     # De or Wms
-    # ./modules/dewm/desktopplasma.nix
-    ./modules/dewm/desktopniri.nix
+    ./modules/dewm/desktopplasma.nix
+    #./modules/dewm/desktopniri.nix
 
     # Modules
 
@@ -32,6 +32,7 @@
     ./modules/apps/development.nix
     ./modules/apps/utilities.nix
     ./modules/apps/system.nix
+    #./modules/apps/omniflake.nix
 
     # System
     ./modules/system/boot.nix

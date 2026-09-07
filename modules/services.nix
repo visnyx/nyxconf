@@ -10,7 +10,6 @@
   # KDE Connect.
   programs.kdeconnect = {
     enable = true;
-    package = pkgs.valent;
   };
 
   # OpenRGB hardware control.

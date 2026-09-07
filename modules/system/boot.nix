@@ -4,25 +4,8 @@
 }:
 
 {
-  # Bootloader
-  boot.loader.limine = {
-    enable = true;
-    maxGenerations = 10;
-    efiSupport = true;
-
-    style = {
-      wallpapers = [ ../wallpapers/y2kblurred.png ];
-      wallpaperStyle = "stretched";
-
-      interface.branding = "";
-
-      graphicalTerminal = {
-        background = "FF000000";
-        brightBackground = "FF000000";
-      };
-    };
-  };
-
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.systemd-boot.configurationLimit = 10;
   boot.loader.efi.canTouchEfiVariables = true;
 
   # MSI modules

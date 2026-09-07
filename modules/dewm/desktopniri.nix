@@ -46,6 +46,7 @@
     gsettings-desktop-schemas
     kdePackages.qt6ct
     bibata-cursors
+    kdePackages.gwenview
   ];
 
   environment.pathsToLink = [ "/share/thumbnailers" ];
@@ -86,5 +87,7 @@
   services.logind.settings.Login = {
     HandlePowerKey = "ignore";
     HandleSuspendKey = "ignore";
+    HandleLidSwitch = "ignore";
+    HandleLidSwitchExternalPower = "ignore";
   };
 }

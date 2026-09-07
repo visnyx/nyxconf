@@ -7,11 +7,6 @@
   # Plasma display manager.
   services.displayManager.plasma-login-manager.enable = true;
 
-  # GTK.
-  environment.systemPackages = with pkgs; [
-    adw-gtk3
-  ];
-
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     fira-sans

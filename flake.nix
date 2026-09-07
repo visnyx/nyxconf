@@ -10,6 +10,11 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    omniflake = {
+      url = "github:fzakaria/omniflake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
