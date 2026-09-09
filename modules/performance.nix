@@ -53,10 +53,17 @@
     AllowSuspendThenHibernate = "no";
   };
 
-  # Ananicy cpp
-  services.ananicy = {
+  # Ananicy cpp (conflict with schedext i think)
+  # services.ananicy = {
+  #   enable = true;
+  #   package = pkgs.ananicy-cpp;
+  #   rulesProvider = pkgs.ananicy-rules-cachyos_git;
+  # };
+
+  # sched-ext LAVD scheduler
+  services.scx = {
     enable = true;
-    package = pkgs.ananicy-cpp;
-    rulesProvider = pkgs.ananicy-rules-cachyos_git;
+    scheduler = "scx_lavd";
+    extraArgs = [ "--autopilot" ];
   };
 }

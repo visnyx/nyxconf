@@ -11,8 +11,7 @@
 
     # De or Wms
     #./modules/dewm/desktopplasma.nix
-    ./modules/dewm/hyprdesktop.nix
-    #./modules/dewm/desktopniri.nix
+    ./modules/dewm/desktopniri.nix
 
     # Modules
 

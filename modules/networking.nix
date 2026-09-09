@@ -11,6 +11,8 @@
       "ipv6.ignore-auto-dns" = true;
     };
   };
+  #startupthingy
+  systemd.services.NetworkManager-wait-online.enable = false;
 
   networking.nameservers = [ "127.0.0.1" ];
 
