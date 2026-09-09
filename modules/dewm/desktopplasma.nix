@@ -13,6 +13,10 @@
     googlesans-code
   ];
 
+  environment.systemPackages = with pkgs; [
+    adw-gtk3
+  ];
+
   # Wayland environment variables.
   environment.sessionVariables = {
     NIXOS_OZONE_WL = "1";

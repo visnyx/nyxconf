@@ -88,7 +88,7 @@
       "nix.serverSettings" = {
         "nixd" = {
           "nixpkgs" = {
-            "expr" = "import <nixpkgs> {};";
+            "expr" = "import (builtins.getFlake \"/home/nyxee/nyxconf\").inputs.nixpkgs { };";
           };
           "options" = {
             "nixos" = {

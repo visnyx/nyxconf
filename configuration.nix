@@ -10,7 +10,8 @@
     ./hardware/nvidia.nix
 
     # De or Wms
-    ./modules/dewm/desktopplasma.nix
+    #./modules/dewm/desktopplasma.nix
+    ./modules/dewm/hyprdesktop.nix
     #./modules/dewm/desktopniri.nix
 
     # Modules
@@ -39,7 +40,7 @@
 
     # kernels
     ./modules/system/cachy.nix
-    ./modules/system/zen.nix
+    #./modules/system/zen.nix
   ];
 
   # Pin nixpkgs for imperative commands.
