@@ -32,8 +32,7 @@
     ./modules/apps/development.nix
     ./modules/apps/utilities.nix
     ./modules/apps/system.nix
-    ./modules/apps/omniflake.nix
-
+    
     # System
     ./modules/system/boot.nix
 
