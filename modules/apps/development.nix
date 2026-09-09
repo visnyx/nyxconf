@@ -6,5 +6,7 @@
     python3
     gcc
     glib
+    distrobox
+    distroshelf
   ];
 }

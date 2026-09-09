@@ -26,4 +26,11 @@
     enable = true;
     package = pkgs.ollama-cuda;
   };
+
+  # Virtualization & containers + nvidia
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true;
+  };
+  hardware.nvidia-container-toolkit.enable = true;
 }

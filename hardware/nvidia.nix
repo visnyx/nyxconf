@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   # mesa-git breaks libgbm on optimus offload
@@ -21,6 +21,7 @@
   services.switcherooControl.enable = true;
 
   hardware.nvidia = {
+    package = config.boot.kernelPackages.nvidiaPackages.latest;
     modesetting.enable = true;
     open = true;
     nvidiaSettings = true;
