@@ -20,5 +20,6 @@
     dnsutils
     micro
     lazygit
+    ghostty
   ];
 }
