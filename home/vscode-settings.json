@@ -70,4 +70,5 @@
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorTheme": "NoctaliaTheme",
+  "git.enableSmartCommit": true,
 }
