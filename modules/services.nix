@@ -21,12 +21,6 @@
     useRoutingFeatures = "client";
   };
 
-  # Ollama
-  services.ollama = {
-    enable = true;
-    package = pkgs.ollama-cuda;
-  };
-
   # Virtualization & containers + nvidia
   virtualisation.podman = {
     enable = true;
