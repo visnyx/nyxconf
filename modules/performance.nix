@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
   # Kernel sysctl.
