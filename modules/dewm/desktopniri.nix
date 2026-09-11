@@ -47,6 +47,10 @@
     kdePackages.qt6ct
     bibata-cursors
     kdePackages.gwenview
+
+    # things for noctalia plugins
+    mpvpaper
+
   ];
 
   environment.pathsToLink = [ "/share/thumbnailers" ];
