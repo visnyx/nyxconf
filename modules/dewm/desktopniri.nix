@@ -49,7 +49,7 @@
     kdePackages.gwenview
 
     # things for noctalia plugins
-    mpvpaper
+    kdePackages.kdialog
 
   ];
 

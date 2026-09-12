@@ -61,9 +61,9 @@
   # };
 
   # sched-ext LAVD scheduler
-  services.scx = {
-    enable = true;
-    scheduler = "scx_lavd";
-    extraArgs = [ "--autopilot" ];
-  };
+  # services.scx = {
+  #   enable = true;
+  #   scheduler = "scx_lavd";
+  #   extraArgs = [ "--autopilot" ];
+  # };
 }

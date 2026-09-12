@@ -9,8 +9,7 @@
   };
 
   # Gamemode.
-  # programs.gamemode.enable = true;
-  # disabled because ananicy cpp xd
+  programs.gamemode.enable = true;
 
   # Gamescope.
   programs.gamescope.enable = true;
